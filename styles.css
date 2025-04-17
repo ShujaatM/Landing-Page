@@ -93,6 +93,7 @@ header {
    display: flex;
    flex-direction: column;
    align-items: center;
+   margin-bottom: 100px;
 }
 
 .info-title {
@@ -126,4 +127,31 @@ header {
    font-size: 18px;
    width: 170px;
    text-align: center;
+}
+
+.quote-sect {
+   background-color: #e5e7eb;
+   display: flex;
+   justify-content: center;
+   padding: 100px 0;
+}
+
+.quote {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.quote-text {
+   font-size: 36px;
+   font-style: italic;
+   color: #1f2937;
+   width: 800px;
+}
+
+.sign {
+   font-size: 24px;
+   font-weight: 900;
+   align-self: flex-end;
+   padding-right: 36px;
 }
