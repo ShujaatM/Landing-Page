@@ -188,3 +188,13 @@ header {
 .action .signup {
    border: 3px solid #e5e7eb;
 }
+
+footer {
+   display: flex;
+   justify-content: center;
+   padding: 24px 0;
+}
+
+.copyright {
+   color: #e5e7eb;
+}
